@@ -29,15 +29,11 @@ calcPrice()
 $(".btn-sauce").click(function(){
     $("section.sauce").toggleClass("sauce-white");  
     $(".btn-sauce").toggleClass("active");
-//$("li:contains('white sauce')").toggle();  
-//calcPrice()
 })
 
 $(".btn-crust").click(function(){ 
     $("section.crust").toggleClass("crust-gluten-free");
     $(".btn-crust").toggleClass("active");
-    //$("li:contains('gluten-free crust')").toggle(); 
-    //calcPrice();
 })
 
 
